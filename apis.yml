@@ -1,9 +1,28 @@
 aid: newgen-software
 name: Newgen Software
-description: 'Newgen Software is a company surfaced as a portfolio company of sapphire-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Newgen Software is a global provider of NewgenONE, a unified low-code
+  digital transformation platform that orchestrates content services (enterprise content
+  management), business process management (BPM/workflow), and customer communication
+  management (CCM) for banks, insurers, government agencies, and healthcare organizations.
+  Founded in 1992 and headquartered in New Delhi, India, the company is publicly listed
+  (NSE/BSE) and serves enterprises worldwide with document management, intelligent
+  document processing, case management, and process automation. Platform capabilities
+  are exposed to customers and system integrators via REST APIs, but Newgen does not
+  operate a public, self-service developer portal or publish OpenAPI/SDK artifacts
+  on its marketing site.'
 url: https://raw.githubusercontent.com/api-evangelist/newgen-software/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.newgensoft.com/wp-content/uploads/2026/06/light-logo-2x.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Saas
+- Low-Code
+- Content Management
+- Business Process Management
+- Customer Communication Management
+- Document Management
+- Intelligent Document Processing
+- Workflow Automation
+- Enterprise Software
+- Digital Transformation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/newgen-software-domain-security.yml
 - type: Website
   url: https://www.newgensoft.com/
+- type: Pricing
+  url: https://www.newgensoft.com/platform/pricing/
+- type: Blog
+  url: https://www.newgensoft.com/resources/blog/
+- type: Support
+  url: https://www.newgensoft.com/company/contact-us/
+- type: PrivacyPolicy
+  url: https://www.newgensoft.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.newgensoft.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
