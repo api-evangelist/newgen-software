@@ -11,6 +11,17 @@ description: 'Newgen Software is a global provider of NewgenONE, a unified low-c
   operate a public, self-service developer portal or publish OpenAPI/SDK artifacts
   on its marketing site.'
 url: https://raw.githubusercontent.com/api-evangelist/newgen-software/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
