@@ -50,9 +50,9 @@ tags:
 - Content Management
 - Business Process Management
 - Customer Communication Management
-- Document-Management
+- Document Management
 - Intelligent Document Processing
-- Workflow-Automation
+- Workflow Automation
 - Enterprise Software
 - Digital Transformation
 tags_raw:
@@ -67,6 +67,8 @@ tags_raw:
 - Workflow Automation
 - Enterprise Software
 - Digital Transformation
+- Document-Management
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
